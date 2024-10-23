@@ -1,0 +1,33 @@
+# Allow all bots access to the entire site
+User-agent: *
+Disallow:
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Block access to specific directories
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Block access to specific files
+User-agent: *
+Disallow: /secret-page.html
+Disallow: /old-content.html
+
+# Allow specific bots to access certain directories
+User-agent: Googlebot
+Allow: /public/
+
+# Block all bots from accessing the admin area
+User-agent: *
+Disallow: /admin/
+
+# Allow all bots to access the images directory
+User-agent: *
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://www.example.com/sitemap.xml

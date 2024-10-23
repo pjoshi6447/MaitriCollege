@@ -1,0 +1,31 @@
+.facilities-cnt {
+    padding: 40px;
+
+    p {
+        font-size: x-large;
+    }
+    .image {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+}
+.courses-sec {
+    .sub-txt {
+        font-size: x-large;
+    }
+    .image {
+        border-radius: 8px;
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+    }
+}
+.testomonial-cnt{
+    .image{
+        border-radius: 45%;
+        width: 100%;
+        max-width: 30px;
+        height: auto;
+    }
+}
