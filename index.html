@@ -66,40 +66,67 @@
   <body>
     <!-- --------model start--------- -->
 
-<!-- Modal -->
-<div class="modal fade" id="myex" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-      <div class="modal-content">
-          <div class="model-css modal-header text-right">
+    <!-- Modal -->
+    <div class="row col-lg-6 col-md-6 col-sm-6">
+      <div
+        class="modal fade"
+        id="myex"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-sm" role="document">
+          <div class="modal-content">
+            <div class="model-css modal-header text-left">
               <h5 class="modal-title text-white">Welcome to Maitri College</h5>
-              <hr class="co">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <p>Modal body text goes here.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id consequatur a explicabo sunt repudiandae temporibus amet maiores debitis nulla, atque tempora quos necessitatibus accusamus consequuntur, saepe architecto officia. Unde voluptatum natus hic rem repellendus facere nobis nemo dolores. Omnis aut corrupti obcaecati eos culpa sequi, officiis amet facere itaque. Porro, eaque. Voluptatem ad iusto esse. Pariatur inventore at sed perspiciatis quas vel porro, earum explicabo molestias alias ab provident non? Esse neque voluptate ab velit magni quae, at quasi suscipit nihil sed impedit necessitatibus dicta natus similique fugit repudiandae, sit voluptas ipsum odio! Accusamus recusandae qui distinctio sit? Cum illum accusamus, nam quis id est eligendi, neque veniam, facilis fugit dolore dicta animi ducimus eum minus exercitationem! Fugit, numquam recusandae commodi modi illum repellat natus aliquid quia impedit</p>
-          </div>
-          <!-- <div class="modal-footer">
+              <hr class="co" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h3 class="text-center mt-4 text-danger">
+                ADMISSION OPEN SESSION 2024-25
+              </h3>
+              <h2 class="text-center mt-4">B. Sc. Nursing</h2>
+              <h4 class="text-center mb-5">4 Years Degree Course</h4>
+              <h2 class="text-center mt-4">M. Sc. Nursing</h2>
+              <h4 class="text-center">(OBG, CHN, PAED, MED-SURG)</h4>
+              <h4 class="text-center mb-5">2 Years Degree Course</h4>
+              <h5 class="text-center mt-4 text-primary">
+                Contact: 7987838197, 6264717102, 9302362531
+              </h5>
+            </div>
+            <!-- <div class="modal-footer">
               <button type="button" class="btn btn-primary">Save changes</button>
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div> -->
-      </div>
-  </div>
-</div>
-
-
-     <!-- --------model end--------- -->
-    <div class="container-fluid bg-primary p-1" >
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 text-primary ">
-          <a href="tel:7987838197" class="text-decoration-none  text-white" ><i class="fa-solid fa-phone "></i>&nbsp; 7987838197</a>&nbsp;
-          <a href="mailto:mcdrcmcn@gmail.com" class="text-decoration-none text-white"><i class="fa-solid fa-envelope "></i> &nbsp;mcdrcmcn@gmail.com</a>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: right;">
-          <div class="text-right"><i class="fa-solid fa-location-dot "></i> Address: Old G. E. Road, Dist, GE Road, Anjora, Chhattisgarh 491001
-
           </div>
-        
+        </div>
+      </div>
+    </div>
+
+    <!-- --------model end--------- -->
+    <div class="container-fluid bg-primary p-1">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 text-primary">
+          <a href="tel:7987838197" class="text-decoration-none text-white"
+            ><i class="fa-solid fa-phone"></i>&nbsp; 7987838197</a
+          >&nbsp;
+          <a
+            href="mailto:mcdrcmcn@gmail.com"
+            class="text-decoration-none text-white"
+            ><i class="fa-solid fa-envelope"></i> &nbsp;mcdrcmcn@gmail.com</a
+          >
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: right">
+          <div class="text-right">
+            <i class="fa-solid fa-location-dot"></i> Address: Old G. E. Road,
+            Dist, GE Road, Anjora, Chhattisgarh 491001
+          </div>
         </div>
       </div>
     </div>
@@ -108,7 +135,12 @@
       <nav class="navbar navbar-expand-lg bg-transparent text-white" id="home">
         <div class="container-fluid">
           <a class="navbar-brand d-flex" href="#">
-            <img class="img-fluid" src="./static/images/logo.png" alt="logo" width="50" />
+            <img
+              class="img-fluid"
+              src="./static/images/logo.png"
+              alt="logo"
+              width="50"
+            />
             <p class="h3 text-uppercase">Maitri College</p>
           </a>
           <button
@@ -133,25 +165,122 @@
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                class="nav-link  text-uppercase"
-                aria-current="page"
-                href="./About.html"
-                >About</a
+                class="nav-link dropdown-toggle text-uppercase"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/About.html">Maitri College</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="/vision.html"
+                    >Vision & mission</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="/deanMsg.html"
+                    >Dean’s Message</a
+                  >
+                </li>
+              </ul>
             </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-uppercase"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Departments
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item text-uppercase" href="/depOfCD&E.html"
+                    >Conservative Dentistry & Endodontics</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfProsth.html"
+                    >DEPARTMENT OF PROSTHODONTICS</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfPeriodnt.html"
+                    >Department of Periodontics</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfOralPath.html"
+                    >Oral Pathology & Microbiology</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfOralMedi.html"
+                    >ORAL MEDICINE & RADIOLOGY</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfPublicHealth.html"
+                    >Public Health Dentistry
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfOrthoDento.html"
+                    >Orthodontics & Dentofacial Ortho</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-uppercase"
+                    href="/depOfPediPrevent.html"
+                    >PEDIATRI & PREVENTIVE DENTISTRY
+                  </a>
+                </li>
+              </ul>
+            </li>
+
             <li class="nav-item">
               <a
-                class="nav-link  text-uppercase"
+                class="nav-link text-uppercase"
                 aria-current="page"
                 href="/courses.html"
                 >courses</a
               >
             </li>
+
             <li class="nav-item">
               <a
-                class="nav-link  text-uppercase"
+                class="nav-link text-uppercase"
                 aria-current="page"
                 href="/contact.html"
                 >contact</a
@@ -159,7 +288,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link  text-uppercase"
+                class="nav-link text-uppercase"
                 aria-current="page"
                 href="/Imagegallery.html"
                 >gallary</a
@@ -198,11 +327,11 @@
           aria-label="Slide 3"
         ></button>
         <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="3"
-        aria-label="Slide 4"
-      ></button>
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -238,7 +367,10 @@
           />
           <div class="carousel-caption d-none d-md-block">
             <h5>Our classroom</h5>
-            <p>Learning is the key that unlocks the door to endless possibilities.</p>
+            <p>
+              Learning is the key that unlocks the door to endless
+              possibilities.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
@@ -250,7 +382,10 @@
           />
           <div class="carousel-caption d-none d-md-block">
             <h5>our laboratory</h5>
-            <p>Where curiosity ignites discovery and experiments shape the future.</p>
+            <p>
+              Where curiosity ignites discovery and experiments shape the
+              future.
+            </p>
           </div>
         </div>
       </div>
@@ -284,10 +419,10 @@
           Empowering Future <br />
 
           <span id="text"></span> -->
-          <!-- --- -->
-          <!-- Dentists and <br />
+    <!-- --- -->
+    <!-- Dentists and <br />
           Pharmacists -->
-        <!-- </h2>
+    <!-- </h2>
         <p class="text-white animate__animated animate__backInLeft">
           Join our college and embark on a rewarding career in dentistry or
           <br />
@@ -338,7 +473,9 @@
             </div>
           </div>
           <a class="btn btn-dark" href="./courses.html">Learn More</a>
-          <a class="btn" href="https://forms.gle/NvqZpoqjG68jb7bt9">Apply Now &gt;</a>
+          <a class="btn" href="https://forms.gle/NvqZpoqjG68jb7bt9"
+            >Apply Now &gt;</a
+          >
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 rounded">
           <img
@@ -370,7 +507,6 @@
           <p>
             Maitri College of Dentistry and Research Centre, Anjora is run by
             Maitri Educational Society Registered vide no. 3383 dt. 03/02/2004
-           
           </p>
           <p>
             Permission for this college has been granted by the Central Govt.
@@ -412,7 +548,12 @@
               a successful academic journey.
             </div>
             <div class="mt-3 mb-5">
-              <a class="text-muted text-capitalize" href="https://forms.gle/NvqZpoqjG68jb7bt9"> learn more > </a>
+              <a
+                class="text-muted text-capitalize"
+                href="https://forms.gle/NvqZpoqjG68jb7bt9"
+              >
+                learn more >
+              </a>
             </div>
           </div>
         </div>
@@ -428,7 +569,12 @@
               support your learning.
             </div>
             <div class="mt-3 mb-5">
-              <a class="text-muted text-capitalize" href="https://forms.gle/NvqZpoqjG68jb7bt9"> sign up > </a>
+              <a
+                class="text-muted text-capitalize"
+                href="https://forms.gle/NvqZpoqjG68jb7bt9"
+              >
+                sign up >
+              </a>
             </div>
           </div>
         </div>
@@ -446,7 +592,12 @@
               and seminars.
             </div>
             <div class="mt-3 mb-5">
-              <a class="text-muted text-capitalize" href="https://forms.gle/NvqZpoqjG68jb7bt9"> join now > </a>
+              <a
+                class="text-muted text-capitalize"
+                href="https://forms.gle/NvqZpoqjG68jb7bt9"
+              >
+                join now >
+              </a>
             </div>
           </div>
         </div>
@@ -568,59 +719,73 @@
         <h2 class="pb-5 h1">Alumni Testimonials</h2>
         <p class="fs-4 pb-3">Hear what our successful alumni have to say</p>
         <div class="row gx-5 pt-5">
-            <div class="col-md-4 mb-4">
-              <img class="image pb-4" src="./static/images/anju.heic" alt="anju yadav" />
-              <h6>anju yadav</h6>
-                <div class="card-body">
-                    <div class="d-flex flex-row gap-2">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="card-text fs-5">
-                        "The education and support I received at Maitri Dental College were unparalleled. The skills I learned here have been invaluable in my career as a dentist."
-                    </p>
-                    
-                </div>
+          <div class="col-md-4 mb-4">
+            <img
+              class="image pb-4"
+              src="./static/images/anju.heic"
+              alt="anju yadav"
+            />
+            <h6>anju yadav</h6>
+            <div class="card-body">
+              <div class="d-flex flex-row gap-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text fs-5">
+                "The education and support I received at Maitri Dental College
+                were unparalleled. The skills I learned here have been
+                invaluable in my career as a dentist."
+              </p>
             </div>
-            <div class="col-md-4 mb-4">
-              <img class="image pb-4 rounded" src="./static/images/arindam bhukta.heic" alt="Amit Sharma" />
-              <h6>arindam bhukta</h6>
-                <div class="card-body">
-                    <div class="d-flex flex-row gap-2">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="card-text fs-5">
-                      "The hands-on training at Maitri Dental College was exceptional. The real-world experience I gained there has been invaluable in my career. "
-                    </p>
-                 
-                </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              class="image pb-4 rounded"
+              src="./static/images/arindam bhukta.heic"
+              alt="Amit Sharma"
+            />
+            <h6>arindam bhukta</h6>
+            <div class="card-body">
+              <div class="d-flex flex-row gap-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text fs-5">
+                "The hands-on training at Maitri Dental College was exceptional.
+                The real-world experience I gained there has been invaluable in
+                my career. "
+              </p>
             </div>
-            <div class="col-md-4 mb-4">
-              <img class="image pb-4" src="./static/images/deepika.heic" alt="deepika kosale"  />
-              <h6>deepika kosale</h6>
-                <div class="card-body">
-                    <div class="d-flex flex-row gap-2">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-                    <p class="card-text fs-5">
-                        "The personalized attention and extensive resources at Maitri Dental College helped me excel in my studies and land a great job. I highly recommend this college!"
-                    </p>
-                    
-                </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <img
+              class="image pb-4"
+              src="./static/images/deepika.heic"
+              alt="deepika kosale"
+            />
+            <h6>deepika kosale</h6>
+            <div class="card-body">
+              <div class="d-flex flex-row gap-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text fs-5">
+                "The personalized attention and extensive resources at Maitri
+                Dental College helped me excel in my studies and land a great
+                job. I highly recommend this college!"
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-    
+      </div>
     </div>
     <!-- hero section 4 ends -->
 
@@ -683,62 +848,82 @@
     <!-- News Letter Section ends -->
 
     <!-- Contact US Section -->
-<footer class="bg-dark text-white">
-    <div class="container mt-5">
-      <div class="row contact-us">
-        <div class="col-md-4 mt-4 mb-3 contact">
-          <h3><i class="fa-regular fa-envelope"></i> Email</h3>
+    <footer class="bg-dark text-white">
+      <div class="container mt-5">
+        <div class="row contact-us">
+          <div class="col-md-4 mt-4 mb-3 contact">
+            <h3><i class="fa-regular fa-envelope"></i> Email</h3>
 
-          <a class="text-decoration-none text-white"  href="mailto:mcdrcmcn@gmail.com"> mcdrcmcn@gmail.com</a>
-        </div>
-        <div class="col-md-4 mt-4 mb-3 contact">
-          <h3><i class="fa-solid fa-phone"></i> Phone</h3>
-          <p>
-            <a class="text-decoration-none text-white"  href="tel:+917987838197">7987838197</a>
-            <a class="text-decoration-none text-white"  href="tel:+917583838629">7583838629</a><br />
-            <a class="text-decoration-none text-white"  href="tel:+917583838637">7583838637</a>
-          </p>
-        </div>
-        <div class="col-md-4 mt-4 mb-3 contact">
-          <h3><i class="fa-solid fa-location-dot"></i> College</h3>
-          <p class="">
-            Address: Old G. E. Road, Dist, GE Road, Anjora, Chhattisgarh 491001
-          </p>
+            <a
+              class="text-decoration-none text-white"
+              href="mailto:mcdrcmcn@gmail.com"
+            >
+              mcdrcmcn@gmail.com</a
+            >
+          </div>
+          <div class="col-md-4 mt-4 mb-3 contact">
+            <h3><i class="fa-solid fa-phone"></i> Phone</h3>
+            <p>
+              <a
+                class="text-decoration-none text-white"
+                href="tel:+917987838197"
+                >7987838197</a
+              >
+              <a
+                class="text-decoration-none text-white"
+                href="tel:+917583838629"
+                >7583838629</a
+              ><br />
+              <a
+                class="text-decoration-none text-white"
+                href="tel:+917583838637"
+                >7583838637</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4 mt-4 mb-3 contact">
+            <h3><i class="fa-solid fa-location-dot"></i> College</h3>
+            <p>
+              Address: Old G. E. Road, Dist, GE Road, Anjora, Chhattisgarh
+              491001
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Contact US Section ends -->
+      <!-- Contact US Section ends -->
 
-    <!-- Footer Section -->
+      <!-- Footer Section -->
 
-    <div class="container">
-      <div class="footer mt-5">
-        <div
-          class="footer-txt mt-3 d-flex flex-wrap justify-content-center gap-5"
-        >
-          <a class="text-decoration-none text-white"  href="#">About Us</a>
-          <a class="text-decoration-none text-white"  href="#">Services</a>
-          <a class="text-decoration-none text-white"  href="#">Contact Us</a>
-          <a class="text-decoration-none text-white"  href="#">FAQ</a>
-          <a class="text-decoration-none text-white"  href="#">Blog</a>
+      <div class="container">
+        <div class="footer mt-5">
+          <div
+            class="footer-txt mt-3 d-flex flex-wrap justify-content-center gap-5"
+          >
+            <a class="text-decoration-none text-white" href="#">About Us</a>
+            <a class="text-decoration-none text-white" href="#">Services</a>
+            <a class="text-decoration-none text-white" href="#">Contact Us</a>
+            <a class="text-decoration-none text-white" href="#">FAQ</a>
+            <a class="text-decoration-none text-white" href="#">Blog</a>
+          </div>
+        </div>
+        <br /><br />
+        <hr class="footer-line" />
+      </div>
+
+      <!-- Below Footer Section -->
+      <div class="container below-footer d-flex justify-content-between">
+        <div class="below-footer-firsttxt">
+          <p>© <span id="currentYear"></span> All rights reserved.</p>
+        </div>
+        <div class="below-footer-secondtxt d-flex flex-wrap gap-3">
+          <a class="text-decoration-none text-white" href="/">Privacy Policy</a>
+          <a class="text-decoration-none text-white" href="/"
+            >Terms and Conditions</a
+          >
+          <a class="text-decoration-none text-white" href="/">Cookie Policy</a>
         </div>
       </div>
-      <br /><br />
-      <hr class="footer-line" />
-    </div>
-
-    <!-- Below Footer Section -->
-    <div class="container below-footer d-flex justify-content-between">
-      <div class="below-footer-firsttxt">
-        <p>© <span id="currentYear"></span> All rights reserved.</p>
-      </div>
-      <div class="below-footer-secondtxt d-flex flex-wrap gap-3">
-        <a class="text-decoration-none text-white"  href="/">Privacy Policy</a>
-        <a class="text-decoration-none text-white"  href="/">Terms and Conditions</a>
-        <a class="text-decoration-none text-white"  href="/">Cookie Policy</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
     <!-- footer ends  -->
 
     <!-- footer1 starts  -->
@@ -789,10 +974,7 @@
     ></script>
 
     <!-- for model -->
-    <script>
-     
-      
-    </script>
+    <script></script>
     <!-- for model end-->
 
     <script
@@ -801,7 +983,6 @@
       crossorigin="anonymous"
       async
     ></script>
-    
 
     <script>
       var typed = new Typed("#text", {

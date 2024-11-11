@@ -32,11 +32,9 @@ scroll-behavior: smooth;
   background-color: #0056b3; /* Darker background color on hover */
   transform: translateY(-5px); /* Slight upward movement on hover */
 }
-
 .back-to-top i {
   vertical-align: middle; /* Aligns the icon in the middle */
 }
-
 .card{
     max-width: 300px !important;
     min-height: 550px !important;
