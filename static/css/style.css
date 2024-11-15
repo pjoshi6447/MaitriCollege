@@ -13,7 +13,6 @@ scroll-behavior: smooth;
 .back-to-top {
   position: fixed; /* Fixes the element to the viewport */
   bottom: 20px; /* Positions 20px from the bottom */
-  
   right: 0; /* Positions 20px from the right */
   z-index: 1000; /* Ensures it appears above other elements */
   background-color: #007bff; /* Button background color */
